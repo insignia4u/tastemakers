@@ -1,0 +1,79 @@
+.modalOverlay,
+.modalCont {
+  display: none;
+}
+.modalOverlay.active,
+.modalCont.active {
+  display: block;
+}
+.modalOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.63);
+  top: 0;
+  left: 0;
+}
+.modalCont {
+  background: #fff;
+  padding: 4px 10px ;
+  position: absolute;
+  top: 50%;
+  width: 280px;
+  left: 50%;
+  margin-left: -150px; 
+  text-align: center;
+  color: #000;
+
+  h2{
+    font-size: em(14);
+  }
+
+  .icon-error {
+    background: url('../images/error.png') no-repeat center 0;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    background-size: 25px;
+    position: relative;
+    margin-right: 10px;
+    top: 5px;
+  }
+  
+  .modalContent {
+    padding: 8px 0 23px;
+    font-size: em(14);
+  }
+}
+
+@media (min-width: 768px) {
+  .modalCont {
+    width: 657px;
+    margin-left: -327px; 
+
+    h2 {
+      font-size: em(24);
+    }
+
+    .icon-error {
+      width: 49px;
+      height: 48px;
+      background-size: initial;
+      position: relative;
+      margin-right: 27px;
+      top: 11px;
+    }
+
+    .modalContent {
+      padding: 8px 0 43px;
+      font-size: em(24);
+    }
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 1.3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 1.3 / 1) and (min-width: 768px), only screen and (min-resolution: 125dpi) and (min-width: 768px), only screen and (min-resolution: 1.3dppx) and (min-width: 768px) {
+  .icon-error {
+    background: url('../images/error.png_2x') no-repeat center 0;
+    background-size: 49px;
+  }
+}

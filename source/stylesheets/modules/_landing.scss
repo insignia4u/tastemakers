@@ -1,0 +1,233 @@
+.landingCont {
+  text-align: center;
+  padding: 45px 10px;
+  color: #fff;
+  
+  p {
+    font-size: em(18);
+  }
+  .th {
+    background: url('../images/th.png') no-repeat center 0;
+    height: 23px;
+    margin-bottom: 10px;
+    text-indent: -99999px;
+    background-size: 150px;
+  }
+  .presents {
+    background: url('../images/presents.png') no-repeat center 0;
+    height: 20px;
+    margin-bottom: 20px;
+    text-indent: -99999px;
+    background-size: 50px;
+  }
+  .tasteMakers {
+    background: url('../images/taste.png') no-repeat center 0;
+    height: 85px;
+    margin-bottom: 6px;
+    text-indent: -99999px;
+    background-size: 300px;
+  }
+  .sep {
+    background: url('../images/sep.png') no-repeat center 0;
+    height: 2px;
+    margin: 25px 0 53px;
+  }
+  .listCont {
+    list-style: none;
+    padding: 0;
+    margin: 45px 0 33px;
+  }
+  .listCont li {
+    display: inline-block;
+    width: 250px;
+    margin: 0 17px 25px;
+  }
+  .listCont h3 {
+    font-size: em(18);
+    margin-bottom: 10px;
+  }
+  .listCont p {
+    font-size: em(12);
+  }
+  .topChefs {
+    background: url('../images/top-chefs.png') no-repeat center 0;
+    height: 87px;
+    background-size: 60px;
+  }
+  .leadingMix {
+    background: url('../images/leading-mixologists.png') no-repeat center 0;
+    height: 87px;
+    background-size: 60px;
+  }
+  .dessertArtisans {
+    background: url('../images/dessert-artisans.png') no-repeat center 0;
+    height: 87px;
+    background-size: 60px;
+  }
+  h4 {
+    font-weight: normal;
+    font-size: em(15);
+  }
+  h2 {
+    font-weight: normal;
+    font-size: em(18);
+  }
+  .formCont{
+    padding: 12px 0 0;
+    text-align: left;
+  }
+  .formCont label,
+  .formCont .ftext {
+    vertical-align: middle;
+    display: block;
+  }
+  .formCont label {
+    font-size: em(15);
+    margin: 0 0 5px;
+  }
+  .formCont .ftext {
+    padding: 5px 15px;
+    margin: 0 0 20px;
+    width: 265px;
+  }
+  .formCont .buttonCont {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .formCont .fsubmit {
+    min-width: 110px;
+    padding: 9px;
+    display: inline-block;
+    border: none;
+    color: #fff;
+    font-size: em(15);
+    background: rgb(200,69,69); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(200,69,69,1) 0%, rgba(168,42,38,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(200,69,69,1)), color-stop(100%,rgba(168,42,38,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(200,69,69,1) 0%,rgba(168,42,38,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(200,69,69,1) 0%,rgba(168,42,38,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(200,69,69,1) 0%,rgba(168,42,38,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(200,69,69,1) 0%,rgba(168,42,38,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c84545', endColorstr='#a82a26',GradientType=0 ); /* IE6-9 */
+  }
+}
+
+@media (min-width: 768px) {
+  .landingCont {
+    padding: 28px 10px;
+
+    .th {
+      background-size: initial;
+      height: 47px;
+      margin-bottom: 12px;
+    }
+    .presents {
+      background-size: initial;
+      margin-bottom: 30px;
+      height: 22px;
+    }
+    .tasteMakers {
+      background-size: initial;
+      height: 129px;
+      margin-bottom: 35px;
+    }
+    p {
+      font-size: em(22);
+    }
+    .listCont {
+      margin: 55px 0 65px;
+      
+      h3 {
+        font-size: em(22);
+      }
+      li {
+        margin: 0 -2px;
+      }
+      p {
+        font-size: em(18);
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: bold;
+      }
+    }
+    h4 {
+      font-size: em(25);
+    }
+    h2 {
+      font-size: em(28);
+    }
+    .topChefs, .dessertArtisans, .leadingMix {
+      background-size: initial;
+      height: 124px;
+    }
+    .formCont{
+      text-align: center;
+
+      label,
+      .ftext {
+        display: inline;
+      }
+      label {
+        font-size: em(23);
+        margin: 0 20px;
+      }
+      .ftext {
+        margin: 0 20px 0 0;
+        width: auto;
+      }
+      .buttonCont {
+        margin-top: 55px;
+      }
+      .fsubmit {
+        font-size: em(23);
+        min-width: 170px;
+      }
+    }
+  }
+}
+
+@media (min-width: 990px) {
+  .listCont {
+    margin: 45px 0 33px;
+    
+     h3 {
+      font-size: em(25);
+    }
+    li {
+      margin: 0 17px;
+    }
+    p {
+      font-size: em(18);
+    }
+  } 
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 1.3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 1.3 / 1) and (min-width: 768px), only screen and (min-resolution: 125dpi) and (min-width: 768px), only screen and (min-resolution: 1.3dppx) and (min-width: 768px) {
+  .landingCont { 
+    .th {
+      background: url("../images/th_2x.png") no-repeat center 0;
+      background-size: 403px;
+    }
+    .presents {
+      background: url('../images/presents_2x.png') no-repeat center 0;
+      background-size: 92px;
+    }
+    .tasteMakers {
+      background: url('../images/taste_2x.png') no-repeat center 0;
+      background-size: 606px;
+    }
+    .topChefs {
+      background: url('../images/top-chefs_2x.png') no-repeat center 0;
+      background-size: 83px;
+    }
+    .leadingMix {
+      background: url('../images/leading-mixologists_2x.png') no-repeat center 0;
+      background-size: 105px;
+    }
+    .dessertArtisans {
+      background: url('../images/dessert-artisans_2x.png') no-repeat center 0;
+      background-size: 82px;
+    }
+  }
+}
